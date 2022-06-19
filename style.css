@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+h1, button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+ul {
+    list-style-type: none;
+}
+header {
+    background: url("images/bg-hero-desktop.svg") no-repeat;
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 60px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    height: 35px;
+}
+.btn {
+    padding: 15px 60px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.12);
+}
+/* .btn:active {
+    color: rgba(0, 37, 46, 0.6);
+  } */
+.first-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px 20px;
+}
+.info {
+    width: 45%;
+}
+.illustration {
+    width: 55%;
+}
+.info h1 {
+    font-size: 42px;
+    padding-right: 40px;
+    margin: 25px 0px;
+}
+.info p {
+    padding-right: 40px;
+    margin: 25px 0px;
+    color: hsl(208, 11%, 55%);
+}
+.info button {
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 15px 70px;
+}
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    padding: 100px 59px 200px 59px;
+}
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px 50px 65px;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.12);
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.feature img {
+    max-width: 100%;
+    width: 520px;
+    padding: 15px 80px 15px 60px;
+}
+.content {
+    padding-left: 70px;
+}
+.content h2 {
+    margin: 10px 0px;
+}
+.content p {
+    width: 93%;
+    color: hsl(208, 11%, 55%);
+}
+.left {
+    margin-right: 0px;
+}
+.left p {
+    width: 100%;
+}
+.cta {
+    position: relative;
+    z-index: 10;
+    bottom: -80px;
+    left: 30%;
+    transform: translateX(-50%);
+    max-width: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    padding: 60px 0px;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.12);
+    border-radius: 10px;
+}
+.cta h1 {
+    margin-bottom: 15px;
+}
+.secondary {
+    margin-top: 20px;
+    padding: 24px 100px;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    /* padding: 16rem 0 4rem 0; */
+    padding: 200px 100px 30px;
+    position: relative; 
+    /*  
+    padding: 150px 70px 70px 70px;
+    font-size: 14px;
+    */
+}
+.footer-logo {
+    width: 250px;
+    fill: white;
+    margin-bottom: 2rem;  
+}
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+.contact {
+    min-width: 40%;
+    width: 40%;
+}
+.add {
+    display: flex;
+    align-items: flex-start;
+}
+.add img {
+    margin-top: 4px;
+    margin-right: 20px;
+}
+li {
+    margin-bottom: 20px;
+    padding-right: 60px;
+    opacity: 0.9;
+}
+.link-1,
+.link-2,
+.socials {
+    width: 20%;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.socials-1 {
+    display: flex;
+    padding: 0;
+}
+a {
+    border: 1px solid #fff
+    border-radius: 50%;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+} 
+
+.socials-1 li {
+    padding: 0px 7px;
+    /* font-size: 20px;
+    align-self: flex-start; */
+}
+.copyright {
+    text-align: right;
+    font-size: 1.2rem;
+    text-align: right;
+    padding-right: 4rem;
+    /* position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 12px; */
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+  }
+i {
+    transition: all 0.3s;
+}
+  
+i:hover,
+i:active {
+    color: hsl(322, 100%, 66%);
+}
